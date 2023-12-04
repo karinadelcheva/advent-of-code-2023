@@ -44,8 +44,6 @@ function getWonCards (cards) {
   return wonCards;
 }
 
-
-// Function to read the file and calculate the possible dame IDs' sum
 function calculateResult() {
   try {
     const fs = require("fs");
